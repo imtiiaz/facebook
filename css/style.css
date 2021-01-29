@@ -347,18 +347,45 @@ header .container {
 -----------------------------------------------*/
 
 
+
 .main_body {
     background: #f2f8ff;
 }
 
-/*-----Stories-----*/
+
+/*----------------------------Notifications -----------------------*/
+
+.notifications {
+    display: inline-block;
+    position: relative;
+}
+
+.notifications ul {
+    background: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 19px 38px rgb(0 0 0 / 1%), 0 15px 12px rgb(242 248 255 / 1%);
+    margin-left: 10px;
+    position: fixed;
+    top: 50%;
+}
+
+.notifications ul li a {
+    font-size: 20px;
+    color: #92a7c2;
+    margin-bottom: 20px;
+}
+
+
+
+/*---------------------------------Stories-----------------------------*/
 
 .stories {
     padding-top: 40px;
 }
 
 .stories .section_title {
-/*    padding-bottom: 40px;*/
+    /*    padding-bottom: 40px;*/
 }
 
 .stories_item {
@@ -370,9 +397,7 @@ header .container {
 }
 
 
-.stories_item .story_img a {
-
-}
+.stories_item .story_img a {}
 
 
 .stories_item .story_img video {
